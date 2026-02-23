@@ -5,7 +5,7 @@ import os
 
 SAVE_FILE = "checklist_data.json"
 
-# ---------- YOUR FULL DATA ----------
+# ---------- LIST DATA ----------
 DEFAULT_LISTS = {
     "Duomension City East Opponents": [
     {"number": 1, "npc": "Layla", "card": "Ruan Mei's Creation", "level": 2, "checked": False},
@@ -180,5 +180,6 @@ for list_name in data:
     content_frames[list_name] = scrollable_frame
 
     refresh_tab(list_name)
+
 
 root.mainloop()
